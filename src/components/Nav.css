@@ -1,0 +1,24 @@
+.navbar {
+  background-color: aquamarine;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  margin-top: 12px;
+}
+.logo img {
+  width: 100%;
+}
+.navlist ul {
+  display: flex;
+}
+.navlist ul li {
+  margin: 0px 10px;
+  color: rgba(0, 0, 0, 0.753);
+}
+.navlist ul li:hover {
+  color: rgba(141, 140, 140, 0.788);
+}

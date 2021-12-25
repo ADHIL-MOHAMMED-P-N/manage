@@ -1,10 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import './Nav.css'
+import Getstarted from './GetStarted'
 
 const Nav = () => {
-    return(
-        <div>
-            <ul>
+    return   (
+        <div className='navbar'>
+            <div className="logo">
+                <img src="./images/logo.svg" alt="logo" />
+            </div>
+            <div className="navlist"><ul>
                 <Link to="/about">
                     <li>About</li>
                 </Link>
@@ -20,7 +25,11 @@ const Nav = () => {
                 <Link to="product">
                     <li>Product</li>
                 </Link>
-            </ul>
+            </ul></div>
+            <div>
+                <Getstarted />
+            </div>
+            
         </div>
     )
 }
