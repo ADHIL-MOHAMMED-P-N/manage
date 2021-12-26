@@ -1,0 +1,38 @@
+.hero {
+  height: 100vh;
+  /* background-color: bisque; */
+}
+.hero-container {
+  margin: 0 auto;
+  max-width: 85%;
+  height: 100%;
+  display: flex;
+}
+
+.text {
+  flex: 1;
+  /* background-color: darkcyan; */
+  display: flex;
+  align-items: center;
+}
+.hero-display {
+  font-size: 50px;
+  margin-bottom: 15px;
+  width: 450px;
+}
+.hero-para {
+  margin-bottom: 20px;
+  width: 399px;
+
+  color: #484848;
+}
+.illustration {
+  flex: 1;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.illustration img {
+  width: 100%;
+}
