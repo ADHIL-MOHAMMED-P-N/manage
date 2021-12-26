@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="text-content">
                     <h1 className="hero-display">Bring everyone together to build better products.
                     </h1>
-                    <p className="hero-para">Manage makes it simple for software teams to plan day to day tasks while keeping the large team goal in view.
+                    <p className="hero-para">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goal in view.
                     </p>
                     <GetStarted />
                 </div>
