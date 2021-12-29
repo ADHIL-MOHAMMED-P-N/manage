@@ -7,7 +7,9 @@ const Nav = () => {
     return   (
         <div className='navbar'>
             <div className="logo">
+            <Link to="/">
                 <img src="./images/logo.svg" alt="logo" />
+            </Link>
             </div>
             <div className="navlist"><ul>
                 <Link to="/about">
